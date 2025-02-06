@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản</title>
+    <link rel="stylesheet" href="dangNhap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- menu 1 -->
+        <section id="menu1">
+                <div class="container" id="noiDung-1">
+                    <p class="a1"><i class="bi bi-truck"></i>Miễn phí giao hàng đơn từ 500k</p>
+                    <p class="a1"><i class="bi bi-box-seam-fill"></i>Giao hàng hỏa tốc 4 tiếng</p>
+                    <p><a href="." class="a1"><i class="bi bi-shop-window"></i>Hệ thống 215 cửa hàng</a></p>
+                </div>
+
+        </section>
+        <!-- menu 2 -->
+        <!-- phần 1 -->
+        <section id="menu2">
+            <div class="container" id="noiDung-2">
+                <img src="https://www.mykingdom.com.vn/cdn/shop/files/LOGOMKD_208X64_NOEL2024.png?v=1733824741&width=400"
+                    alt="logo">
+                <div id="thanh-tim-kiem">
+                    <i class="bi bi-search"></i><input type="text"
+                        placeholder="Nhập từ khóa để tìm kiếm (ví dụ: lắp ráp, mô hình, ba lô,...)" autocomplete>
+                </div>
+                <div id="icon-menu2">
+                    <a href="."><i class="bi bi-truck"></i>Đơn hàng</a>
+                    <a href="."><i class="bi bi-file-person-fill"></i>Đăng nhập</a>
+                    <a href="."><i class="bi bi-basket2-fill"></i>Giỏ hàng</a>
+                </div>
+            </div>
+            <!-- phần 2 -->
+            <div id="phan-2">
+                <ul class="container" id="noiDung-3">
+                    <li><a href="." class="menu2-phan2">Hàng mới</a></li>
+                    <li><a href="." class="menu2-phan2">Sản phẩm<i class="bi bi-caret-down-fill"></i></a>
+                        <ul class="menu-drop">
+                            <li><a href="#">Đồ chơi theo phim<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Đồ chơi phương tiện<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Đồ chơi lắp ghép<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Đồ chơi sáng tạo<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Đồ thể thao<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Búp bê<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Robot<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Thú bông<i class="bi bi-caret-right-fill"></i></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="." class="menu2-phan2">Độ tuổi</a></li>
+                    <li><a href="." class="menu2-phan2">Thương hiệu</a></li>
+                    <li><a href="." class="menu2-phan2">Độc quyền online</a></li>
+                    <li><a href="." class="menu2-phan2">Khuyến mãi<i class="bi bi-caret-down-fill"></i></a>
+                        <ul class="menu-drop">
+                            <li><a href="#">LEGO Xmas<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">LEGO ưu đãi cho bé gái<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Xe đạp giảm -40%<i class="bi bi-caret-right-fill"></i></a></li>
+                            <li><a href="#">Mua 1 tặng 1 xe phiên bản giới hạn<i class="bi bi-caret-right-fill"></i></a>
+                            </li>
+                            <li><a href="#">Siku ưu đại xmax -25%<i class="bi bi-caret-right-fill"></i></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="." class="menu2-phan2">Chương trình thành viên</a></li>
+                    <li><a href="." class="menu2-phan2">Cẩm nang</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- phần 3 -->
+         <section id="phan-3">
+            <div class="container" id="noiDung-4">
+            <p id="trang-chu"><a href="index.html">Trang chủ <i class="bi bi-caret-right-fill"></i></a></p>
+            <p id="tai-khoan"><a href="dangNhap.html">Tài khoản</a></p>
+            </div>
+         </section>         
+    </header>
+
+        <!-- form đăng nhập -->
+    <section id="form-dangNhap">
+        <form>
+            <h1>Đăng Nhập</h1>
+            <div>
+                <div class="input-dn">
+                <label class="label-input" for="input-dangNhap">Email</label><br>
+                <input type="email" class="input-dangNhap" autocomplete required>
+                </div>
+
+                <div class="input-dn">
+                    <label class="label-input" for="input-dangNhap">Mật khẩu</label><br>
+                    <input type="password" class="input-dangNhap" autocomplete required>
+                </div>
+
+                <div id="button-dn">
+                    <button>Đăng Nhập</button>
+                </div>
+
+                <div id="quen-mat-khau">
+                    <p><a href=".">Quên mật khẩu?</a></p>
+                </div>
+
+                <div id="chua-co-tai-khoan">
+                    <p>Chưa có tài khoản? <a href=".">Đăng ký tài khoản</a></p>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <!-- thanh 1 -->
+        <section id="footer-1">
+            <div class="container" id="noi-dung-1">
+                <p class="a1"><i class="bi bi-truck"></i>Miễn phí giao hàng đơn từ 500k</p>
+                <p class="a1"><i class="bi bi-box-seam-fill"></i>Giao hàng hỏa tốc 4 tiếng</p>
+                <p><a href="." class="a1"><i class="bi bi-shop-window"></i>Hệ thống 215 cửa hàng</a></p>
+            </div>
+        </section>
+    
+        <!-- footer 1 -->
+        <section class="container" id="footer-2">
+            <div id="dang-ky">
+                <img src="https://www.mykingdom.com.vn/cdn/shop/files/LOGOMKD_208X64_NOEL2024.png?v=1733824741"
+                    alt="logo"><br>
+                <b>Tham gia ngay để nhận về tay thông tin ưu đãi và hữu ích từ Mykingdom</b><br>
+                <div id="input-dangky">
+                    <input id="input-email" type="email" placeholder="Nhập email của bạn" autocomplete="email">
+                    <input id="input-submit" type="submit" value="Đăng ký">
+                    <p>*Bạn có thể hủy đăng kí bất cứ lúc nào!</p>
+                </div>
+            </div>
+    
+            <div id="link">
+                <div id="link-1">
+                    <h4>Follow us</h4>
+                    <div id="mang-xa-hoi">
+                        <a href="https://www.facebook.com/mykingdomvn/"><i class="bi bi-facebook" id="facebook"></i></a>
+                        <a href="https://www.instagram.com/mykingdom_vietnam/"><i class="bi bi-instagram"
+                                id="instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCGeeH3wqD2AWB3NsyBwVrbw"><i class="bi bi-youtube"
+                                id="youtube"></i></a>
+                        <a href="https://www.tiktok.com/@mykingdomofficial?lang=vi-VN"><i class="bi bi-tiktok"
+                                id="tiktok"></i></a>
+                    </div>
+                </div>
+    
+                <div id="link-2">
+                    <h4>Website cùng hệ thống</h4>
+                    <div id="link-website">
+                        <a href="https://clevercollection.vn/"><img
+                                src="https://www.mykingdom.com.vn/cdn/shop/files/Rectangle_46.svg?v=1687167855&width=432"
+                                alt=""></a>
+                        <a href="https://hobiverse.com.vn/"><img
+                                src="https://www.mykingdom.com.vn/cdn/shop/files/Rectangle_48.svg?v=1687167853&width=432"
+                                alt=""></a>
+                        <a href="https://mykingdom-outlet.com.vn/"><img
+                                src="https://www.mykingdom.com.vn/cdn/shop/files/MYKINGDOM_OUTLET_4275533d-d503-413b-b993-3f319186cf53.png?v=1686194764&width=432"
+                                alt=""></a>
+                        <a href="https://mykingdomsteam.edu.vn/"><img
+                                src="https://www.mykingdom.com.vn/cdn/shop/files/LOGO-MYKINGDOM-STEAM.png?v=1733906330&width=432"
+                                alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- gạch dưới footer 2 -->
+        <span id="line-botton"></span>
+    
+        <!-- footer 3 -->
+        <section id="footer-3" class="container">
+            <div class="noidung">
+                <h4 class="tieuDe-footer3">Thông tin liên hệ</h4>
+                <div id="noiDung-f1">
+                    <p><i class="bi bi-geo-alt"></i>33-35 đường số D4, khu Đô thị mới Him Lam, Phường Tân Hưng, Quận 7,
+                        TP. Hồ Chí Minh
+                    </p>
+                    <p><i class="bi bi-telephone"></i>19001208</p>
+                    <p><i class="bi bi-envelope"></i>hotro@mykingdom.com.vn</p>
+                    <p><i class="bi bi-calendar"></i>Thứ 2 - Thứ 7 • 8:00 - 17:00</p>
+                    <p><i class="bi bi-calendar"></i>Chủ nhật • 8:00 - 12:00</p>
+                </div>
+            </div>
+    
+            <div class="noidung">
+                <h4 class="tieuDe-footer3">Điều khoản và chính sách</h4>
+                <div id="noiDung-f2">
+                    <p><a href=".">Chính sách giao hàng</a></p>
+                    <p><a href=".">Chính sách bảo mật</a></p>
+                    <p><a href=".">Chính sách bảo hành và đổi trả hàng hóa</a></p>
+                    <p><a href=".">Chính sách bảo hành đồng hồ lmoo</a></p>
+                    <p><a href=".">Chính sách thanh toán</a></p>
+                    <p><a href=".">Điều kiện & Điều khoản thành viên</a></p>
+                </div>
+            </div>
+    
+            <div class="noidung">
+                <h4 class="tieuDe-footer3">Hệ thống cửa hàng</h4>
+                <a href="."><img id="img-footer3"
+                        src="https://www.mykingdom.com.vn/cdn/shop/files/he-thong-cua-hang.png?v=1728292725&width=500"
+                        alt=""></a>
+            </div>
+        </section>
+    
+        <section class="container" id="phan4-f3">
+            <div id="noiDung-f4">
+                <p>Công ty cổ phần Việt Tinh Anh Số ĐKKD: 0309132354 do sở kế hoạch và đầu tư cấp ngày 14/07/09</p>
+                <p>Địa chỉ: 33-35 đường số D4, khu Đô thị mới Him Lam, Phường Tân Hưng, Quận 7, TP. Hồ Chí Minh Điện thoại:
+                    0286.2638.600</p>
+            </div>
+            <div id="img-f4">
+                <a href="http://online.gov.vn/Home/WebDetails/88854?AspxAutoDetectCookieSupport=1"><img
+                        src="https://cdn.shopify.com/s/files/1/0579/0439/8524/files/image_24.svg?v=1682498901" alt=""></a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>

@@ -1,0 +1,197 @@
+/* .wobble-hor-bottom {
+    -webkit-animation: wobble-hor-bottom 3s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite both;
+    animation: wobble-hor-bottom 3s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite both;
+}
+
+@-webkit-keyframes wobble-hor-bottom {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-30px) rotate(-6deg);
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(15px) rotate(6deg);
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15px) rotate(-3.6deg);
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(9px) rotate(2.4deg);
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-6px) rotate(-1.2deg);
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@keyframes wobble-hor-bottom {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-30px) rotate(-6deg);
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(15px) rotate(6deg);
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15px) rotate(-3.6deg);
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(9px) rotate(2.4deg);
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-6px) rotate(-1.2deg);
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+.scale-out-center {
+    -webkit-animation: scale-out-center 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) alternate-reverse both;
+    animation: scale-out-center 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) alternate-reverse both;
+}
+
+@-webkit-keyframes scale-out-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-out-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+} */
+
+.tuyet{
+    color: white;
+    user-select: none;
+    top: -20px;
+    position: fixed;
+    z-index: 999;
+    animation: hieu-ung-roi-xuong 7s linear infinite,hieu-ung-sang-trai-phai 1s linear infinite alternate;
+    
+}
+
+@keyframes hieu-ung-sang-trai-phai {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(80px);
+    }
+}
+
+@keyframes hieu-ung-roi-xuong {
+    0% {
+        top: -20px;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+.tuyet:nth-child(1){
+    left: 30px;
+    animation-delay: 0.5s;
+}
+
+.tuyet:nth-child(2) {
+    left: 100px;
+    animation-delay: 3s;
+}
+
+.tuyet:nth-child(3) {
+    left: 200px;
+    animation-delay: 5s;
+}
+
+.tuyet:nth-child(4) {
+    left: 350px;
+    animation-delay: 4s;
+}
+
+.tuyet:nth-child(5) {
+    left: 450px;
+    animation-delay: 1.5s;
+}
+
+.tuyet:nth-child(6) {
+    left: 550px;
+    animation-delay: 5s;
+}
+
+.tuyet:nth-child(7) {
+    left: 650px;
+    animation-delay: 6.5s;
+}
+
+.tuyet:nth-child(8) {
+    left: 750px;
+    animation-delay: 4s;
+}
+
+.tuyet:nth-child(9) {
+    left: 900px;
+    animation-delay: 3.5s;
+}
+
+.tuyet:nth-child(10) {
+    left: 1000px;
+    animation-delay: 6s;
+}
+
+.tuyet:nth-child(11) {
+    left: 1100px;
+    animation-delay: 7s;
+}
+
+.tuyet:nth-child(12) {
+    left: 1200px;
+    animation-delay: 1s;
+}
